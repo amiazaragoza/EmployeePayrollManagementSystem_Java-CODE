@@ -1,4 +1,4 @@
-// ©  M A D E		B Y		E M M A N		B A R R A M E D A  © //
+
 
 package MainPackage;
 import javax.swing.text.AttributeSet;

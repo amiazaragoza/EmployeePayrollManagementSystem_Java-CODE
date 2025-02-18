@@ -1,4 +1,3 @@
-// ©  M A D E		B Y		E M M A N		B A R R A M E D A  © //
 package MainPackage;
 
 import SystemDB.DBconnection;
@@ -147,7 +146,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
     final ToastManager restartToast = new ToastManager(restart, xPosToast, yPosToast);
 
     AboutSystem aboutApppanel = new AboutSystem();
-    AboutDeveloper aboutDevpanel = new AboutDeveloper();
 
     //for restart
     public static final String SUN_JAVA_COMMAND = "sun.java.command";
@@ -1942,7 +1940,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
         //set the items
         JPopupMenu popupSettings = new JPopupMenu();
         JMenuItem menuAboutApp = new JMenuItem("About " + mainAppNameFromDB + "");
-        JMenuItem menuAboutDev = new JMenuItem("About Developer");
         JMenuItem menuTheme1 = new JMenuItem("★ Default Theme (Recommended)");
         JMenuItem menuTheme2 = new JMenuItem("IntelliJ-white Theme");
         JMenuItem menuTheme3 = new JMenuItem("Windows Theme");
@@ -1965,14 +1962,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
         menuAboutApp.addActionListener(aboutAppActionListener);
 
         //----------------------------------------------------------//
-        //about dev menu action command
-        ActionListener aboutDevActionListener
-                = (ActionEvent e) -> {
-                    aboutDevpanel.setVisible(true);
-                };
-        menuAboutDev.addActionListener(aboutDevActionListener);
-
-        //----------------------------------------------------------//
         //theme1 action command
         ActionListener Theme1ActionListener
                 = (ActionEvent e) -> {
@@ -1983,7 +1972,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2003,7 +1991,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2031,7 +2018,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2055,7 +2041,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2084,7 +2069,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2104,7 +2088,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2133,7 +2116,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2153,7 +2135,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2173,7 +2154,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
         //----------------------------------------------------------//
         //set jmenus cursor
         menuAboutApp.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        menuAboutDev.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         menuTheme1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         menuTheme2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         menuTheme3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -2186,7 +2166,6 @@ public final class MainNavigationHomePanel_S_ADMIN extends javax.swing.JFrame {
         popupSettings.removeAll();
         popupSettings.add(AboutLBL);
         popupSettings.add(menuAboutApp);
-        popupSettings.add(menuAboutDev);
         popupSettings.addSeparator();
         popupSettings.add(ThemesLBL);
         popupSettings.add(menuTheme1);

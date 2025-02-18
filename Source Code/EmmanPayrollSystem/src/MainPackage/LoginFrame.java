@@ -793,7 +793,7 @@ public final class LoginFrame extends javax.swing.JFrame {
 
         usernameLABEL.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
         usernameLABEL.setForeground(new java.awt.Color(102, 102, 102));
-        usernameLABEL.setText("username");
+        usernameLABEL.setText("USERNAME");
         pnlMAIN.add(usernameLABEL, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
 
         usernameTF.setBackground(new java.awt.Color(253, 253, 253));
@@ -832,7 +832,7 @@ public final class LoginFrame extends javax.swing.JFrame {
 
         passwordLABEL.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
         passwordLABEL.setForeground(new java.awt.Color(102, 102, 102));
-        passwordLABEL.setText("password");
+        passwordLABEL.setText("PASSWORD");
         pnlMAIN.add(passwordLABEL, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, -1, -1));
 
         passwordTF.setBackground(new java.awt.Color(253, 253, 253));
@@ -841,7 +841,6 @@ public final class LoginFrame extends javax.swing.JFrame {
         passwordTF.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 2, 0, new java.awt.Color(12, 91, 160)));
         passwordTF.setDoubleBuffered(true);
         passwordTF.setEchoChar('\u25cf');
-        passwordTF.setOpaque(false);
         passwordTF.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 passwordTFActionPerformed(evt);
@@ -960,8 +959,8 @@ public final class LoginFrame extends javax.swing.JFrame {
 
         pnlMAIN.add(pnlTop, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 362, -1));
 
-        loginBTN.setBackground(new java.awt.Color(51, 204, 0));
-        loginBTN.setText("LOG IN");
+        loginBTN.setBackground(new java.awt.Color(255, 0, 0));
+        loginBTN.setText("Log In");
         loginBTN.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         loginBTN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -985,7 +984,7 @@ public final class LoginFrame extends javax.swing.JFrame {
 
         userlevelLABEL.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
         userlevelLABEL.setForeground(new java.awt.Color(102, 102, 102));
-        userlevelLABEL.setText("user level");
+        userlevelLABEL.setText("USER LEVEL");
         pnlMAIN.add(userlevelLABEL, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, -1, -1));
 
         userlevelCB.setBackground(new java.awt.Color(253, 253, 253));

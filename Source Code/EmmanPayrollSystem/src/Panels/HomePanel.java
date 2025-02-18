@@ -254,7 +254,6 @@ public final class HomePanel extends javax.swing.JPanel {
         totalempTFhome = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
         refreshBTNhome = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(249, 250, 253));
         setPreferredSize(new java.awt.Dimension(1313, 571));
@@ -439,9 +438,6 @@ public final class HomePanel extends javax.swing.JPanel {
         });
         jPanel1.add(refreshBTNhome, new org.netbeans.lib.awtextra.AbsoluteConstraints(1240, 550, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/payroll_home_graphics2.png"))); // NOI18N
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1310, 550));
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -452,7 +448,7 @@ public final class HomePanel extends javax.swing.JPanel {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 669, Short.MAX_VALUE)
+            .addGap(0, 573, Short.MAX_VALUE)
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -477,7 +473,6 @@ public final class HomePanel extends javax.swing.JPanel {
     private javax.swing.JLabel dayLABEL;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;

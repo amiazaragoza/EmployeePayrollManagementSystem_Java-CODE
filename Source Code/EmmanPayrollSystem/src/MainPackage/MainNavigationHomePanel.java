@@ -1,4 +1,3 @@
-// ©  M A D E		B Y		E M M A N		B A R R A M E D A  © //
 package MainPackage;
 
 import SystemDB.DBconnection;
@@ -147,7 +146,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
     final ToastManager restartToast = new ToastManager(restart, xPosToast, yPosToast);
 
     AboutSystem aboutApppanel = new AboutSystem();
-    AboutDeveloper aboutDevpanel = new AboutDeveloper();
 
     //for restart
     public static final String SUN_JAVA_COMMAND = "sun.java.command";
@@ -1177,7 +1175,7 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        pnlTop.setBackground(new java.awt.Color(0, 102, 204));
+        pnlTop.setBackground(new java.awt.Color(255, 69, 86));
         pnlTop.setPreferredSize(new java.awt.Dimension(1024, 30));
         pnlTop.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
@@ -1194,7 +1192,7 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
         });
         pnlTop.setLayout(new java.awt.BorderLayout(0, 5));
 
-        pnlActions.setBackground(new java.awt.Color(0, 102, 204));
+        pnlActions.setBackground(new java.awt.Color(253, 69, 86));
         pnlActions.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 pnlActionsMouseEntered(evt);
@@ -1218,7 +1216,7 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
         });
         pnlActions.add(lblSettings);
 
-        lblMinimize.setBackground(new java.awt.Color(0, 102, 204));
+        lblMinimize.setBackground(new java.awt.Color(253, 69, 86));
         lblMinimize.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8_minus_18px_1.png"))); // NOI18N
         lblMinimize.setToolTipText("Minimize");
         lblMinimize.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -1307,7 +1305,7 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
 
         pnlParent.setLayout(new java.awt.BorderLayout());
 
-        topNavigationPane.setBackground(new java.awt.Color(45, 118, 232));
+        topNavigationPane.setBackground(new java.awt.Color(253, 69, 86));
         topNavigationPane.setForeground(new java.awt.Color(51, 51, 51));
         topNavigationPane.setPreferredSize(new java.awt.Dimension(250, 60));
         topNavigationPane.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -1349,7 +1347,7 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
         companynameLBL.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         topNavigationPane.add(companynameLBL, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 30, 200, -1));
 
-        logoutBTN.setBackground(new java.awt.Color(45, 118, 232));
+        logoutBTN.setBackground(new java.awt.Color(253, 69, 86));
         logoutBTN.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
         logoutBTN.setForeground(new java.awt.Color(255, 255, 255));
         logoutBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/logout_menu_32px.png"))); // NOI18N
@@ -1388,10 +1386,10 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
         });
         topNavigationPane.add(logoutBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 0, 120, 60));
 
-        homeBTN.setBackground(new java.awt.Color(45, 118, 232));
+        homeBTN.setBackground(new java.awt.Color(253, 69, 86));
         homeBTN.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
         homeBTN.setForeground(new java.awt.Color(255, 255, 255));
-        homeBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/home_menu_2_32px.png"))); // NOI18N
+        homeBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/home.png"))); // NOI18N
         homeBTN.setText("HOME");
         homeBTN.setToolTipText("");
         homeBTN.setBorder(null);
@@ -1427,7 +1425,7 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
         });
         topNavigationPane.add(homeBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 0, 110, 60));
 
-        employeemanagerBTN.setBackground(new java.awt.Color(45, 118, 232));
+        employeemanagerBTN.setBackground(new java.awt.Color(253, 69, 86));
         employeemanagerBTN.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
         employeemanagerBTN.setForeground(new java.awt.Color(255, 255, 255));
         employeemanagerBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/employee_management_menu_32px.png"))); // NOI18N
@@ -1466,7 +1464,7 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
         });
         topNavigationPane.add(employeemanagerBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 0, 190, 60));
 
-        userlvlTF.setForeground(new java.awt.Color(45, 118, 232));
+        userlvlTF.setForeground(new java.awt.Color(253, 69, 86));
         userlvlTF.setText("jLabel1");
         topNavigationPane.add(userlvlTF, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 40, 60, -1));
 
@@ -1874,7 +1872,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
         //set the items
         JPopupMenu popupSettings = new JPopupMenu();
         JMenuItem menuAboutApp = new JMenuItem("About " + mainAppNameFromDB + "");
-        JMenuItem menuAboutDev = new JMenuItem("About Developer");
         JMenuItem menuTheme1 = new JMenuItem("★ Default Theme (Recommended)");
         JMenuItem menuTheme2 = new JMenuItem("IntelliJ-white Theme");
         JMenuItem menuTheme3 = new JMenuItem("Windows Theme");
@@ -1897,14 +1894,7 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
         menuAboutApp.addActionListener(aboutAppActionListener);
 
         //----------------------------------------------------------//
-        //about dev menu action command
-        ActionListener aboutDevActionListener
-                = (ActionEvent e) -> {
-                    aboutDevpanel.setVisible(true);
-                };
-        menuAboutDev.addActionListener(aboutDevActionListener);
-
-        //----------------------------------------------------------//
+       
         //theme1 action command
         ActionListener Theme1ActionListener
                 = (ActionEvent e) -> {
@@ -1915,7 +1905,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -1935,7 +1924,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -1963,7 +1951,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -1987,7 +1974,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2016,7 +2002,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2036,7 +2021,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2065,7 +2049,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2085,7 +2068,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
                             popupSettings.removeAll();
                             popupSettings.add(AboutLBL);
                             popupSettings.add(menuAboutApp);
-                            popupSettings.add(menuAboutDev);
                             popupSettings.addSeparator();
                             popupSettings.add(ThemesLBL);
                             popupSettings.add(menuTheme1);
@@ -2105,7 +2087,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
         //----------------------------------------------------------//
         //set jmenus cursor
         menuAboutApp.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        menuAboutDev.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         menuTheme1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         menuTheme2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         menuTheme3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -2118,7 +2099,6 @@ public final class MainNavigationHomePanel extends javax.swing.JFrame {
         popupSettings.removeAll();
         popupSettings.add(AboutLBL);
         popupSettings.add(menuAboutApp);
-        popupSettings.add(menuAboutDev);
         popupSettings.addSeparator();
         popupSettings.add(ThemesLBL);
         popupSettings.add(menuTheme1);
